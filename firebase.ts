@@ -2,21 +2,15 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
-// Import the functions you need from the SDKs you need
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAq5LPUTtfLoLTaVzUjHiC0qJ3nXOAMs8s",
-  authDomain: "fittrack-workout-app.firebaseapp.com",
-  projectId: "fittrack-workout-app",
-  storageBucket: "fittrack-workout-app.firebasestorage.app",
-  messagingSenderId: "1020522724550",
-  appId: "1:1020522724550:web:2eedd7d525473465572bc7",
+  apiKey: "AIzaSyC8UeThj2zlSi5l-M0WGen_BU4bmZbiTl8",
+  authDomain: "task-manager-app-ca147.firebaseapp.com",
+  projectId: "task-manager-app-ca147",
+  storageBucket: "task-manager-app-ca147.firebasestorage.app",
+  messagingSenderId: "3155864725",
+  appId: "1:3155864725:web:cae6728b9b4376ed94bf9c",
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
 export const auth = getAuth(app);
